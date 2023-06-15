@@ -23,6 +23,7 @@
     {"name":"Distrik_Adpub","order":1,"path":"rooms/Distrik_Adpub/Distrik_Adpub.yy",},
     {"name":"TanggaAtasBawah","order":5,"path":"tilesets/TanggaAtasBawah/TanggaAtasBawah.yy",},
     {"name":"TSKotaSIPFI","order":2,"path":"sprites/TSKotaSIPFI/TSKotaSIPFI.yy",},
+    {"name":"TS_Distirik_Kesos","order":12,"path":"tilesets/TS_Distirik_Kesos/TS_Distirik_Kesos.yy",},
     {"name":"houses","order":9,"path":"sprites/houses/houses.yy",},
     {"name":"Tangga","order":4,"path":"sprites/Tangga/Tangga.yy",},
     {"name":"tileset","order":6,"path":"sprites/tileset/tileset.yy",},
@@ -33,5 +34,6 @@
     {"name":"props","order":8,"path":"sprites/props/props.yy",},
     {"name":"KotaSIPFI","order":3,"path":"tilesets/KotaSIPFI/KotaSIPFI.yy",},
     {"name":"middleground","order":3,"path":"sprites/middleground/middleground.yy",},
+    {"name":"Distrik_Kesos","order":2,"path":"rooms/Distrik_Kesos/Distrik_Kesos.yy",},
   ],
 }
