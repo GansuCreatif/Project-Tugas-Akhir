@@ -1,6 +1,2 @@
-dir =-1;
-hsp = 0;
-vsp = 0;
-grv = 0.3;
-spd = 3;
-dont_fall = true;
+path_start(Path1,2,path_action_reverse,false);
+path_speed = 5;

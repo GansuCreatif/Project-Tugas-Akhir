@@ -34,6 +34,7 @@
     {"name":"TS_Distirik_Kesos","order":10,"path":"tilesets/TS_Distirik_Kesos/TS_Distirik_Kesos.yy",},
     {"name":"tiles","order":15,"path":"sprites/tiles/tiles.yy",},
     {"name":"Main_Character_Attack","order":4,"path":"sprites/Main_Character_Attack/Main_Character_Attack.yy",},
+    {"name":"Path1","order":7,"path":"paths/Path1/Path1.yy",},
     {"name":"TS_Distrik_Ilab","order":12,"path":"tilesets/TS_Distrik_Ilab/TS_Distrik_Ilab.yy",},
     {"name":"houses","order":7,"path":"sprites/houses/houses.yy",},
     {"name":"Tangga","order":2,"path":"sprites/Tangga/Tangga.yy",},

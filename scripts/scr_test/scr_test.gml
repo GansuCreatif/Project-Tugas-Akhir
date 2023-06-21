@@ -1,4 +1,4 @@
-hsp = dir * spd;
+/*hsp = dir * spd;
 vsp = vsp + grv;
 
 //Horizontal Collision
@@ -35,4 +35,11 @@ if (!place_meeting(x,y+1,obj_tanah))
 	image_speed = 0;
 	if(sign(vsp) > 0) image_index = 1; else image_index = 0;
 	
-}
+}*/
+/*
+dir =-1;
+hsp = 0;
+vsp = 0;
+grv = 0.3;
+spd = 3;
+dont_fall = true;*/
