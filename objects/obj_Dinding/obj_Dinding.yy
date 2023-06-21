@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Parallax",
+  "name": "obj_Dinding",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sCollision",
+    "path": "sprites/sCollision/sCollision.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
