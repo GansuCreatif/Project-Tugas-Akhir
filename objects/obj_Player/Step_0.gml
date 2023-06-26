@@ -1,7 +1,7 @@
 //Player_input
 key_left =  keyboard_check(ord("A"));
 key_right =  keyboard_check(ord("D"));
-key_jump = keyboard_check_pressed(vk_space);
+key_jump = keyboard_check(ord("W"));
 
 
 //Calculate Movement
@@ -49,7 +49,7 @@ if (!place_meeting(x,y+1,obj_tanah))
 }
 else
 {
-	image_speed = 1;
+	image_speed = 0.1;
 	if(hsp == 0)
 	{
 		sprite_index = Main_Character_Idle;
