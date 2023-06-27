@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "Tangga",
-    "path": "sprites/Tangga/Tangga.yy",
+    "name": "TS_Tangga",
+    "path": "sprites/TS_Tangga/TS_Tangga.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {

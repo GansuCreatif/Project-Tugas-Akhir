@@ -1,7 +1,9 @@
 //Player_input
 key_left =  keyboard_check(ord("A"));
 key_right =  keyboard_check(ord("D"));
-key_jump = keyboard_check(ord("W"));
+key_up = keyboard_check(ord("W"));
+key_down = keyboard_check(ord("S"));
+key_jump = keyboard_check_pressed(vk_space);
 
 
 //Calculate Movement
@@ -16,6 +18,7 @@ if (place_meeting(x,y+1,obj_tanah)) && (key_jump)
 {
 	vsp = -7;
 }
+
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_tanah))
@@ -74,4 +77,18 @@ if (keyboard_check(ord("A"))) {
 // Draw Event
 draw_sprite(Main_Character_Idle, image_index, x, y);  // Menggambar sprite
 
+//Naik Tangga
+if (key_down || key_up)
+{
+	if place_meeting(x,y,obj_tangga) tangga = true;
+}
+if(tangga)
+{
+	vsp = 0;
+	//hsp = 0;
+	if (key_up) vsp = -2;
+	if (key_down) vsp = 2;
+	if !place_meeting(x,y,obj_tangga) tangga = false;
+	if (key_jump) tangga = false;
+}
 
