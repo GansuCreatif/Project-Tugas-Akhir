@@ -92,3 +92,14 @@ if(tangga)
 	if (key_jump) tangga = false;
 }
 
+var detectionRadius = 50; // Jarak deteksi pemain terhadap musuh
+
+// Menghitung jarak antara pemain dan musuh
+var distanceToEnemy = point_distance(x, y, obj_enemy.x, obj_enemy.y);
+
+if distanceToEnemy < detectionRadius
+{
+    // Jika musuh berada dalam jarak deteksi pemain
+    instance_destroy(); // Menghancurkan objek pemain
+}
+
