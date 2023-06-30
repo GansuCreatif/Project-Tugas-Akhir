@@ -1,11 +1,8 @@
 hsp = 0;
 vsp = 0;
-grv = 0.3;
-kecepatan_jalan = 3;
-image_speed = 0.5;
-flip_direction = 1;
+grv = 0.1;
+kecepatan = 4;
 tangga = false;
-
-
-
+flip_status = 1; // 0: menghadap ke kanan, 1: menghadap ke kiri
+animation_speed = 0.1; // Kecepatan animasi (ubah sesuai kebutuhan)
 
