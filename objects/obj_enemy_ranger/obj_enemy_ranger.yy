@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Enemy_ranger",
-    "path": "sprites/Enemy_ranger/Enemy_ranger.yy",
+    "name": "Enemy_ranger_idle",
+    "path": "sprites/Enemy_ranger_idle/Enemy_ranger_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

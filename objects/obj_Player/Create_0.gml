@@ -5,4 +5,9 @@ kecepatan = 4;
 tangga = false;
 flip_status = 1; // 0: menghadap ke kanan, 1: menghadap ke kiri
 animation_speed = 0.1; // Kecepatan animasi (ubah sesuai kebutuhan)
-
+damage = 10;
+hp = 100;
+stamina = 100;
+maxStamina = 100;
+staminaRefillRate = 0.1;
+isAttacking = false;

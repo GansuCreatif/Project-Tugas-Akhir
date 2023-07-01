@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Enemy_Idle",
-    "path": "sprites/Enemy_Idle/Enemy_Idle.yy",
+    "name": "Enemy_Walk",
+    "path": "sprites/Enemy_Walk/Enemy_Walk.yy",
   },
   "spriteMaskId": null,
   "visible": true,
