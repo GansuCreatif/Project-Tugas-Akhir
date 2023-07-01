@@ -100,42 +100,56 @@ if (sprite_index == spr_idle) {
     attacking = false; // Tandai bahwa serangan selesai
 }
 
-if (key_attack && stamina > 0) {
-	if keyboard_check_pressed(key_attack) {
-    var enemy = instance_place(x, y, obj_enemy); 
-	if instance_exists(enemy) {
-    enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
-    
+// Memeriksa apakah pemain menekan tombol serangan
+if (keyboard_check_pressed(ord("K"))) {
+    // Memeriksa apakah stamina cukup untuk menyerang
+    if (stamina >= stamina_depletion_rate) {
+        // Mengurangi stamina saat menyerang
+        stamina -= stamina_depletion_rate;
+        // Mengatur timer serangan
+        attack_timer = attack_cooldown;
+        
+        // Lakukan aksi menyerang terhadap musuh di sini
+        if keyboard_check_pressed(key_attack) {
+			var enemy = instance_place(x, y, obj_enemy); 
+		if instance_exists(enemy) {
+			enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
+				}
+			}
 		}
-	}
-}
-if keyboard_check_pressed(key_attack) {
-    var enemy = instance_place(x, y, obj_Ace_Ilku); 
-	if instance_exists(enemy) {
-    enemy.Hp -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
+		if keyboard_check_pressed(key_attack) {
+			var enemy = instance_place(x, y, obj_Ace_Ilku); 
+		if instance_exists(enemy) {
+			enemy.Hp -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
     
 		 if enemy.Hp <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
+				}
+			}
 		}
-	}
-}
-if keyboard_check_pressed(key_attack) {
-    var enemy = instance_place(x, y, obj_enemy_ranger); 
-	if instance_exists(enemy) {
-    enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
+		if keyboard_check_pressed(key_attack) {
+			 var enemy = instance_place(x, y, obj_enemy_ranger); 
+		if instance_exists(enemy) {
+			 enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
     
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
+				}
+			}
 		}
-	}
+    }
 }
-     stamina -= 10; // Mengurangi stamina setelah menyerang (misalnya, 10)
-   
-   if (stamina <= 0) {
-      stamina = 0; // Memastikan stamina tidak menjadi negatif
-   }
+
+// Mengisi stamina saat tidak menyerang
+if (attack_timer <= 0 && stamina < stamina_max) {
+    stamina += stamina_regeneration_rate;
+}
+
+// Mengurangi timer serangan jika masih dalam cooldown
+if (attack_timer > 0) {
+    attack_timer--;
 }
 if (hp <= 0) {
 	hp = 0;
