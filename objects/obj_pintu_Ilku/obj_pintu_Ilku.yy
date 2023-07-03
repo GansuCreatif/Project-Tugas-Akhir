@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPintu_Distrik",
+    "path": "sprites/sPintu_Distrik/sPintu_Distrik.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -113,7 +113,7 @@ if (keyboard_check_pressed(ord("K"))) {
         if keyboard_check_pressed(key_attack) {
 			var enemy = instance_place(x, y, obj_enemy); 
 		if instance_exists(enemy) {
-			enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
+			enemy.nyawa_enemy -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
 				}
@@ -122,7 +122,7 @@ if (keyboard_check_pressed(ord("K"))) {
 		if keyboard_check_pressed(key_attack) {
 			var enemy = instance_place(x, y, obj_Ace_Ilku); 
 		if instance_exists(enemy) {
-			enemy.Hp -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
+			enemy.Hp -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
     
 		 if enemy.Hp <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
@@ -132,7 +132,7 @@ if (keyboard_check_pressed(ord("K"))) {
 		if keyboard_check_pressed(key_attack) {
 			 var enemy = instance_place(x, y, obj_enemy_ranger); 
 		if instance_exists(enemy) {
-			 enemy.nyawa_enemy -= damage; // Ganti "damage" dengan jumlah damage yang diinginkan
+			 enemy.nyawa_enemy -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
     
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
@@ -156,5 +156,6 @@ if (hp <= 0) {
 	show_message("Anda Kalah");
     game_restart();
 }
+
 
 

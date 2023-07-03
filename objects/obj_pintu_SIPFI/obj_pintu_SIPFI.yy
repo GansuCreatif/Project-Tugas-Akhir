@@ -28,7 +28,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPintu_Kota",
+    "path": "sprites/sPintu_Kota/sPintu_Kota.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
