@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_tanah",
-  "eventList": [],
+  "name": "obj_pintu_Kesos",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Pintu",
+    "path": "folders/Objects/Pintu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sField",
-    "path": "sprites/sField/sField.yy",
+    "name": "sPintu_Distrik",
+    "path": "sprites/sPintu_Distrik/sPintu_Distrik.yy",
   },
   "spriteMaskId": null,
   "visible": true,
