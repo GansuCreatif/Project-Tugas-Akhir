@@ -11,3 +11,5 @@ patrol_direction = 1; // Arah patroli (1 = ke kanan, -1 = ke kiri)
 
 // Inisialisasi posisi awal patroli
 x = patrol_point_A_x;
+ 
+itemDrop = noone;

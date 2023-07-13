@@ -15,3 +15,4 @@ attack_cooldown = 60; // Cooldown serangan (dalam frame)
 attack_timer = 0; // Timer serangan
 startingX = 0;
 startingY = 0;
+global.inventoryVisible = false;

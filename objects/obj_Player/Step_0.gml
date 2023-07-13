@@ -111,7 +111,7 @@ if (keyboard_check_pressed(ord("K"))) {
         
         // Lakukan aksi menyerang terhadap musuh di sini
         if keyboard_check_pressed(key_attack) {
-			var enemy = instance_place(x, y, obj_enemy); 
+			var enemy = instance_place(x, y, obj_bobagem); 
 		if instance_exists(enemy) {
 			enemy.nyawa_enemy -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
 		 if enemy.nyawa_enemy <= 0 {
@@ -157,5 +157,11 @@ if (hp <= 0) {
     game_restart();
 }
 
-
-
+if keyboard_check_pressed(ord("I")) { // Ganti dengan tombol yang ingin Anda gunakan untuk membuka inventaris
+    global.inventoryVisible = !global.inventoryVisible; // Mengubah status tampilan inventaris saat tombol ditekan
+    if global.inventoryVisible {
+        room_goto(room_inventory); // Pindah ke room inventaris jika tampilan inventaris diaktifkan
+    } else {
+        room_goto_previous(); // Kembali ke room sebelumnya jika tampilan inventaris dinonaktifkan
+    }
+}
