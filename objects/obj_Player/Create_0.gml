@@ -13,6 +13,4 @@ stamina_depletion_rate = 1; // Tingkat pengurangan stamina saat menyerang
 stamina_regeneration_rate = 0.5; // Tingkat regenerasi stamina saat tidak menyerang
 attack_cooldown = 60; // Cooldown serangan (dalam frame)
 attack_timer = 0; // Timer serangan
-startingX = 0;
-startingY = 0;
-global.inventoryVisible = false;
+previous_room = room;

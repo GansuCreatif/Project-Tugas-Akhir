@@ -158,10 +158,6 @@ if (hp <= 0) {
 }
 
 if keyboard_check_pressed(ord("I")) { // Ganti dengan tombol yang ingin Anda gunakan untuk membuka inventaris
-    global.inventoryVisible = !global.inventoryVisible; // Mengubah status tampilan inventaris saat tombol ditekan
-    if global.inventoryVisible {
-        room_goto(room_inventory); // Pindah ke room inventaris jika tampilan inventaris diaktifkan
-    } else {
-        room_goto_previous(); // Kembali ke room sebelumnya jika tampilan inventaris dinonaktifkan
-    }
+	 global.previous_room = room; // Simpan kamar sebelumnya dalam variabel global
+    room_goto(room_inventory); // Ganti dengan kode yang sesuai untuk perpindahan ke "Room Inventory"
 }
