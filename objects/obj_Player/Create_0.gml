@@ -14,3 +14,7 @@ stamina_regeneration_rate = 0.5; // Tingkat regenerasi stamina saat tidak menyer
 attack_cooldown = 60; // Cooldown serangan (dalam frame)
 attack_timer = 0; // Timer serangan
 previous_room = room;
+inventory_item[0] = 0; // Kuantitas item 1 (indeks 0) diatur ke 0
+inventory_item[1] = 0; // Kuantitas item 2 (indeks 1) diatur ke 0
+inventory_item[2] = 0; // Kuantitas item 3 (indeks 1) diatur ke 0
+inventory_item[3] = 0; // Kuantitas item 4 (indeks 1) diatur ke 0

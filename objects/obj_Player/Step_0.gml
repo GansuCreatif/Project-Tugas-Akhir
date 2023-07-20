@@ -161,3 +161,4 @@ if keyboard_check_pressed(ord("I")) { // Ganti dengan tombol yang ingin Anda gun
 	 global.previous_room = room; // Simpan kamar sebelumnya dalam variabel global
     room_goto(room_inventory); // Ganti dengan kode yang sesuai untuk perpindahan ke "Room Inventory"
 }
+

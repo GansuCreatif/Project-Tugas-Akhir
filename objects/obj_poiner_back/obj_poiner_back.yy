@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_Kayu",
-  "eventList": [],
+  "name": "obj_poiner_back",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Sampah_Organik",
-    "path": "folders/Objects/Item_Drop_Monster/Sampah_Organik.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +27,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_pointer_back",
+    "path": "sprites/spr_pointer_back/spr_pointer_back.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
