@@ -15,7 +15,7 @@ vsp = vsp + grv;
 
 if(place_meeting(x,y+1,obj_tanah)) && (key_jump)
 {
-	vsp = -2;
+	vsp = -7;
 }
 //Horizontal Collision
 if (place_meeting(x+hsp,y,obj_tanah))
@@ -109,11 +109,11 @@ if (keyboard_check_pressed(ord("K"))) {
         // Mengatur timer serangan
         attack_timer = attack_cooldown;
         
-        // Lakukan aksi menyerang terhadap musuh di sini
+        // Lakukan aksi menyerang terhadap musuh
         if keyboard_check_pressed(key_attack) {
 			var enemy = instance_place(x, y, obj_bobagem); 
 		if instance_exists(enemy) {
-			enemy.nyawa_enemy -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
+			enemy.nyawa_enemy -= damage_pemain; // Ganti dengan jumlah damage 
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
 				}
@@ -122,7 +122,7 @@ if (keyboard_check_pressed(ord("K"))) {
 		if keyboard_check_pressed(key_attack) {
 			var enemy = instance_place(x, y, obj_Ace_Ilku); 
 		if instance_exists(enemy) {
-			enemy.Hp -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
+			enemy.Hp -= damage_pemain; // Ganti  dengan jumlah damage
     
 		 if enemy.Hp <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
@@ -132,7 +132,17 @@ if (keyboard_check_pressed(ord("K"))) {
 		if keyboard_check_pressed(key_attack) {
 			 var enemy = instance_place(x, y, obj_enemy_ranger); 
 		if instance_exists(enemy) {
-			 enemy.nyawa_enemy -= damage_pemain; // Ganti "damage" dengan jumlah damage yang diinginkan
+			 enemy.nyawa_enemy -= damage_pemain; // Ganti dengan jumlah damage 
+    
+		 if enemy.nyawa_enemy <= 0 {
+			 instance_destroy(enemy); // Menghancurkan objek musuh
+				}
+			}
+		}
+		if keyboard_check_pressed(key_attack) {
+			 var enemy = instance_place(x, y, obj_Trashgem); 
+		if instance_exists(enemy) {
+			 enemy.nyawa_enemy -= damage_pemain; // Ganti dengan jumlah damage 
     
 		 if enemy.nyawa_enemy <= 0 {
 			 instance_destroy(enemy); // Menghancurkan objek musuh
@@ -157,8 +167,7 @@ if (hp <= 0) {
     game_restart();
 }
 
-if keyboard_check_pressed(ord("I")) { // Ganti dengan tombol yang ingin Anda gunakan untuk membuka inventaris
+if keyboard_check_pressed(ord("I")) { // membuka inventaris
 	 global.previous_room = room; // Simpan kamar sebelumnya dalam variabel global
-    room_goto(room_inventory); // Ganti dengan kode yang sesuai untuk perpindahan ke "Room Inventory"
+    room_goto(room_inventory); // untuk perpindahan ke "Room Inventory"
 }
-

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_Kota_sipfi",
-  "bbox_bottom": 309,
-  "bbox_left": 40,
-  "bbox_right": 587,
-  "bbox_top": 6,
+  "bbox_bottom": 852,
+  "bbox_left": 0,
+  "bbox_right": 1279,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,19 +13,19 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c3f60b6f-4d24-4dae-99a5-2cfdb59e2ca8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"f754da96-b378-4f43-aa68-7973095b4645",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 312,
+  "height": 853,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1c4860f3-9ff2-4157-859f-d08722ffb4c5","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"df684246-0949-4ee1-8436-ddd416f7fd80","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 65,
+    "bottom": 178,
     "enabled": false,
     "guideColour": [
       4294902015,
@@ -36,7 +36,7 @@
     "highlightColour": 1728023040,
     "highlightStyle": 0,
     "left": 0,
-    "right": 351,
+    "right": 749,
     "tileMode": [
       0,
       0,
@@ -44,7 +44,7 @@
       0,
       0,
     ],
-    "top": 197,
+    "top": 539,
   },
   "origin": 0,
   "parent": {
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c3f60b6f-4d24-4dae-99a5-2cfdb59e2ca8","path":"sprites/spr_Kota_sipfi/spr_Kota_sipfi.yy",},},},"Disabled":false,"id":"e543ddbe-52c8-42ca-8d03-70f412589826","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f754da96-b378-4f43-aa68-7973095b4645","path":"sprites/spr_Kota_sipfi/spr_Kota_sipfi.yy",},},},"Disabled":false,"id":"d50db6f5-b85a-498b-915d-19390c136b74","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 600,
+  "width": 1280,
 }

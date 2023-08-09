@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_Kota_sipfi",
-    "path": "sprites/spr_Kota_sipfi/spr_Kota_sipfi.yy",
+    "name": "spr_Kota_Hokum",
+    "path": "sprites/spr_Kota_Hokum/spr_Kota_Hokum.yy",
   },
   "spriteMaskId": null,
   "visible": true,

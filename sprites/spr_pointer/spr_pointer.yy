@@ -4,7 +4,7 @@
   "name": "spr_pointer",
   "bbox_bottom": 9,
   "bbox_left": 0,
-  "bbox_right": 15,
+  "bbox_right": 9,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d76ff38d-07d7-455e-a423-04099d1e300c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c174fa32-09d5-4611-9273-1770ec174b00",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 11,
+  "height": 10,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd20b745-753e-4679-993a-0d4b3e34562a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4b5c1815-4713-4148-852b-f0877a9c706d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "GUI",
-    "path": "folders/Sprites/GUI.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d76ff38d-07d7-455e-a423-04099d1e300c","path":"sprites/spr_pointer/spr_pointer.yy",},},},"Disabled":false,"id":"98bcf790-cbac-430d-bfb9-7da2c67df257","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c174fa32-09d5-4611-9273-1770ec174b00","path":"sprites/spr_pointer/spr_pointer.yy",},},},"Disabled":false,"id":"f81a5d62-3b1f-4bdb-9d08-79996f5994f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 18,
+  "width": 10,
 }

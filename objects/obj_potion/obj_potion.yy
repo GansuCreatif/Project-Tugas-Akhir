@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Potion",
+    "path": "folders/Objects/Potion.yy",
   },
   "parentObjectId": null,
   "persistent": false,

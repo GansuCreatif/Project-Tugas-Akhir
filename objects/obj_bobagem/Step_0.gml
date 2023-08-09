@@ -34,8 +34,7 @@ if (distance_to_player < 50) { // Sesuaikan jarak sesuai preferensi Anda
         image_index = 0; // Reset frame animasi serangan
 
         // Lakukan aksi menyerang terhadap pemain di sini
-        // Misalnya, kurangi nyawa pemain atau sejenisnya
-        obj_player.hp -= damage_enemy; // Contoh: Mengurangi nyawa pemain sebanyak 1
+        obj_player.hp -= damage_enemy; // Contoh: Mengurangi nyawa pemain 
     }
 } else {
     // Menghentikan serangan jika sedang menyerang

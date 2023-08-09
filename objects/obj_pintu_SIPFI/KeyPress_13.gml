@@ -1,7 +1,7 @@
-// Menentukan jarak antara pemain dan objek pintu
+
 var jarak = distance_to_object(obj_player);
 
-// Jika pemain mendekati objek pintu dalam jarak tertentu (misalnya, 32 piksel)
+// Jika pemain mendekati objek pintu dalam jarak tertentu
 if (jarak <= 32)
 {
     // Memindahkan pemain ke ruangan baru saat tombol Enter ditekan

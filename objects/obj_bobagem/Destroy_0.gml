@@ -1,10 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 // Daftar item yang dapat dijatuhkan
 var itemList = [
-    obj_Kulit_buah,  // Ganti dengan objek item yang diinginkan
-    obj_Sisa_sayuran,  // Ganti dengan objek item yang diinginkan
-	obj_Daging,			// Ganti dengan objek item yang diinginkan
+    obj_Kulit_buah,  //objek item 
+    obj_Sisa_sayuran,  //objek item
+	obj_Daging,			//objek item 
     obj_Buah_busuk,	
 ];
 
@@ -14,7 +13,6 @@ var dropChances = [
     85,  // Peluang drop item 2 
 	75,	// Peluang drop item 3
 	75, // Peluang drop item 4
-    // Sesuaikan peluang untuk item lain jika diperlukan
 ];
 
 // Buat item baru jika ada item yang dijatuhkan
